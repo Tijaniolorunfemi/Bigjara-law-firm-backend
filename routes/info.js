@@ -18,7 +18,6 @@ router.route('/add').post((req , res) => {
         password,
         email,
         date,
-
     })
 
     newInfo.save()
